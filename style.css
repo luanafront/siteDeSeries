@@ -45,6 +45,7 @@ body {
         }
 .principal {
     background-color: var(--fundo-main);
+    padding: 20px 0 30px 0;
 }
 .principal {
     color: var(--branco-pradao);
@@ -181,3 +182,12 @@ body {
             .series__opcao--imagens:hover {
                 border: 5px solid var(--cor-borda-botao);
             }
+.rodape {
+    background-color: var(--fundo-footer);
+    height: 20px;
+}
+@media (max-width:815px) {
+    .principal__topo--imagem{
+        width: 100%;
+    }
+}
