@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 :root{
  --fundo-header: #2D3047;
  --fundo-main: #0A1045;
@@ -17,21 +18,21 @@ body {
     align-items: center;
 }
   .cabecalho__titulo {
-      font-family: ;
+      font-weight: lighter;
       margin: 0;
       color: var(--branco-pradao);
       height: 40px;
       padding-left: 10px;
       flex-direction: column;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: 'Cookie', cursive;
+      font-size: 40px;
   }
     .cabecalho__botoes {
         list-style: none;
         background-color: transparent;
-       
+        padding-right: 20px;
         border-bottom: var(--cor-borda-botao);
     }
-    
         .styleBotoes {
             background-color: transparent;
             color: var(--branco-pradao);
@@ -42,3 +43,141 @@ body {
         .styleBotoes:hover {
             border-bottom: 1px solid var(--cor-borda-botao); 
         }
+.principal {
+    background-color: var(--fundo-main);
+}
+.principal {
+    color: var(--branco-pradao);
+}
+    .principal__topo {
+        text-align: center;
+    }
+        .principal__topo--titulo {
+            margin:0;
+            height: 40px;
+        }
+        .principal__topo--imagem {
+            height: 300px;
+            width: 720px;
+        }
+.principal__populares {
+    overflow-x: scroll;
+}
+.principal__populares::-webkit-scrollbar {
+    width: 12px;
+}
+.principal__populares::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.193); 
+}
+.principal__populares::-webkit-scrollbar-thumb {
+    background-color: var(--fundo-footer);
+    border-radius: 20px;       
+
+}
+    .principal__populares--titulo {
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .principal__populares--opcoes {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin: 10px;
+        cursor: pointer;
+    }
+        .principal__populares--opcao{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .populares__opcao--imagens{
+            border: 5px solid transparent; 
+            height: 298px; 
+            width: 200px;
+        }
+        .populares__opcao--imagens:hover {
+            border: 5px solid var(--cor-borda-botao);
+        }
+.principal__filmes {
+    overflow-x: scroll;
+}
+.principal__filmes::-webkit-scrollbar {
+    width: 12px;
+}
+.principal__filmes::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.193); 
+}
+.principal__filmes::-webkit-scrollbar-thumb {
+    background-color: var(--fundo-footer);
+    border-radius: 20px;       
+
+}
+    .principal__filmes--titulo {
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .principal__filmes--opcoes {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin: 10px;
+        cursor: pointer;
+    }
+        .principal__filmes--opcao{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .filmes__opcao--imagens{
+            border: 5px solid transparent;  
+            height: 298px; 
+            width: 200px;
+        }
+        .filmes__opcao--imagens:hover {
+            border: 5px solid var(--cor-borda-botao);
+        }
+.principal__series {
+    overflow-x: scroll;
+}
+.principal__series::-webkit-scrollbar {
+    width: 12px;
+}
+.principal__series::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.193); 
+}
+.principal__series::-webkit-scrollbar-thumb {
+    background-color: var(--fundo-footer);
+    border-radius: 20px;       
+
+}
+    .principal__series--titulo {
+        padding-left: 20px;
+        font-size: 30px;
+    }
+         .principal__series--opcoes {
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            cursor: pointer;
+        }
+            .principal__series--opcao{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+            }
+            .series__opcao--imagens{
+                border: 5px solid transparent;  
+                height: 298px; 
+                width: 200px;
+            }
+            .series__opcao--imagens:hover {
+                border: 5px solid var(--cor-borda-botao);
+            }
