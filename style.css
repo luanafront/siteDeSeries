@@ -7,3 +7,38 @@
  --cor-borda-botao: #628395;
  --fundo-fotos: #628395;
 }
+body {
+    margin: 0;
+}
+.cabecalho {
+    background-color: var(--fundo-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .cabecalho__titulo {
+      font-family: ;
+      margin: 0;
+      color: var(--branco-pradao);
+      height: 40px;
+      padding-left: 10px;
+      flex-direction: column;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+    .cabecalho__botoes {
+        list-style: none;
+        background-color: transparent;
+       
+        border-bottom: var(--cor-borda-botao);
+    }
+    
+        .styleBotoes {
+            background-color: transparent;
+            color: var(--branco-pradao);
+            cursor: pointer;
+            border: 0;
+            border-bottom: 1px solid transparent;  
+        }
+        .styleBotoes:hover {
+            border-bottom: 1px solid var(--cor-borda-botao); 
+        }
