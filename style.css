@@ -184,6 +184,16 @@ body {
 }
 @media (max-width:815px) {
     .principal__topo--imagem{
-        width: 100%;
+        width: 84%;
+        height: 210px;
     }
+    .cabecalho__titulo {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .styleBotoes {
+        font-size: 12px;
+    }
+    .principal__populares--titulo, .principal__filmes--titulo, .principal__series--titulo {
+        font-size: 23px;
 }
