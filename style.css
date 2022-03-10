@@ -25,7 +25,7 @@ body {
       padding-left: 10px;
       flex-direction: column;
       font-family: 'Cookie', cursive;
-      font-size: 40px;
+      font-size: 22px;
   }
     .cabecalho__botoes {
         list-style: none;
@@ -96,6 +96,7 @@ body {
             border: 5px solid transparent; 
             height: 298px; 
             width: 200px;
+            
         }
         .populares__opcao--imagens:hover {
             border: 5px solid #152085cb;
