@@ -58,6 +58,7 @@ body {
         .principal__topo--imagem {
             height: 300px;
             width: 720px;
+            box-shadow: rgba(27, 27, 204, 0.829) 0px 7px 29px 0px;
         }
 
     .principal__populares--titulo {
