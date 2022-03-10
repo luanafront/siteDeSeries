@@ -41,7 +41,7 @@ body {
             border-bottom: 1px solid transparent;  
         }
         .styleBotoes:hover {
-            border-bottom: 1px solid var(--cor-borda-botao); 
+            border-bottom: 2px solid #1f2eb1cb; 
         }
 .principal {
     background-color: var(--fundo-main);
@@ -98,7 +98,7 @@ body {
             width: 200px;
         }
         .populares__opcao--imagens:hover {
-            border: 5px solid var(--cor-borda-botao);
+            border: 5px solid #152085cb;
         }
     .principal__filmes--titulo {
         padding-left: 20px;
@@ -136,7 +136,7 @@ body {
             width: 200px;
         }
         .filmes__opcao--imagens:hover {
-            border: 5px solid var(--cor-borda-botao);
+            border: 5px solid #152085cb;
         }
    
 
@@ -177,7 +177,7 @@ body {
                 width: 200px;
             }
             .series__opcao--imagens:hover {
-                border: 5px solid var(--cor-borda-botao);
+                border: 5px solid #152085cb;
             }
 .rodape {
     background-color: var(--fundo-footer);
